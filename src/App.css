@@ -28,6 +28,39 @@
   color: #61dafb;
 }
 
+.bg{
+  background: url(bg.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 150vh;
+  overflow: hidden;
+}
+.stepTop{
+  -webkit-box-shadow: 6px 6px 14px -6px rgba(94,94,94,1);
+-moz-box-shadow: 6px 6px 14px -6px rgba(94,94,94,1);
+box-shadow: 6px 6px 14px -6px rgba(94,94,94,1);
+    transition: box-shadow 0.5s ease-in-out;
+    background-color: white; 
+    text-align: left;
+}
+.steps-content {
+  border-top: 1px solid #258ffb;
+  border-radius: 2px;
+  background-color: white;
+  min-height: 500px;
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 20%;
+  padding-right: 20%;
+  -webkit-box-shadow: 6px 6px 14px -6px rgba(94,94,94,1);
+-moz-box-shadow: 6px 6px 14px -6px rgba(94,94,94,1);
+box-shadow: 6px 6px 14px -6px rgba(94,94,94,1);
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
